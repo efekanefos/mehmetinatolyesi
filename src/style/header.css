@@ -1,0 +1,25 @@
+.logo {
+  width: 6rem !important;
+  border-radius: 50% !important;
+  margin-left: -2rem !important;
+}
+
+.midlinks {
+  padding-left: 20% !important;
+}
+
+@media screen and (max-width: 992px) {
+  .midlinks {
+    padding-left: 0rem !important;
+  }
+}
+.hero {
+  display: block !important;
+  width: 100% !important;
+  height: 28rem !important;
+  margin: 0 auto !important;
+}
+
+.icons {
+  font-size: 1.5rem !important;
+}

@@ -1,0 +1,44 @@
+.product {
+  width: 15rem !important;
+  height: 18rem !important;
+  transition: all 1s !important;
+}
+.prodiv {
+  display: inline-block !important;
+  position: relative !important;
+}
+
+.product:hover + .blackcart,
+.blackcart:hover {
+  display: inline-block !important;
+  position: absolute !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  color: white !important;
+  background-color: black !important;
+  padding-top: 8px !important;
+  z-index: 55 !important;
+}
+
+.blackcart {
+  display: none !important;
+  transition: background-color 1s;
+  height: 2.5rem !important;
+  width: 15rem !important;
+}
+.blackcart:hover {
+  background-color: #777777 !important;
+}
+.price {
+  color: #9d9d9d !important;
+}
+.divclass:hover span {
+  display: none;
+}
+.divclass:hover:before {
+  content: "Satın Al";
+}
+.caroitem {
+  width: 15rem !important;
+  height: 18rem !important;
+}
