@@ -35,9 +35,11 @@
 .divclass:hover span {
   display: none;
 }
-.divclass:hover:before {
+.divclass:hover:before,
+.prodiv:hover .price {
   content: "Satın Al";
 }
+
 .caroitem {
   width: 15rem !important;
   height: 18rem !important;

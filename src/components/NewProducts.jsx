@@ -29,9 +29,9 @@ function NewProducts(props) {
               </div>
               <p className="d-block mx-auto">
                 <span>Ürünün adı</span> <br />
-                <div className="divclass">
+                <span className="divclass">
                   <span className="price">Ürünün fiyatı</span>
-                </div>
+                </span>
               </p>
             </Col>
           ))}
