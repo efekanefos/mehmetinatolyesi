@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
 .product {
   width: 15rem !important;
   height: 18rem !important;
@@ -40,7 +41,27 @@
   content: "Satın Al";
 }
 
-.caroitem {
-  width: 15rem !important;
-  height: 18rem !important;
+.category {
+  width: 100% !important; /* 35rem */
+  height: 29rem !important; /* 26rem */
+}
+
+.category-yatay {
+  width: 90% !important; /* 35rem */
+  margin: 0 auto !important;
+}
+.title {
+  display: inline-block !important;
+  text-shadow: 2px 2px 9px black !important;
+  position: relative !important;
+  top: 80% !important;
+  font-size: 4vw !important;
+  transform: scale(1, 0.85);
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 5px !important;
+  text-decoration: underline !important;
+}
+
+.vertical-cat {
+  width: 93%;
 }

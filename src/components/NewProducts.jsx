@@ -1,17 +1,97 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import "../style/newproducts.css";
 import images from "../data/imgdata.js";
 
 function NewProducts(props) {
   return (
     <div>
-      <h1 className="text-center py-5 font-weight-bold display-5">
+      <Container fluid className="mx-auto d-block mt-4">
+        <Row className="mx-auto vertical-cat">
+          <Col xs={4} sm={4} md={4} lg={4} xl={4} className="p-0">
+            <Card className="text-white category-yatay mb-3">
+              <Card.Img
+                className="vertical-img1"
+                src={images[17]}
+                alt="Card image"
+              />
+              <Card.ImgOverlay>
+                <Card.Title className="title">Kişiye Özel</Card.Title>
+              </Card.ImgOverlay>
+            </Card>
+          </Col>
+          <Col xs={4} sm={4} md={4} lg={4} xl={4} className="p-0">
+            <Card className="text-white category-yatay mb-3">
+              <Card.Img
+                className="vertical-img1"
+                src={images[9]}
+                alt="Card image"
+              />
+              <Card.ImgOverlay>
+                <Card.Title className="title">Kişiye Özel</Card.Title>
+              </Card.ImgOverlay>
+            </Card>
+          </Col>
+          <Col xs={4} sm={4} md={4} lg={4} xl={4} className="p-0">
+            <Card className="text-white category-yatay mb-3">
+              <Card.Img
+                className="vertical-img1"
+                src={images[10]}
+                alt="Card image"
+              />
+              <Card.ImgOverlay>
+                <Card.Title className="title">Duvar Sanatı</Card.Title>
+              </Card.ImgOverlay>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid>
+        <Row>
+          <Col xs={12}>
+            <Card className="text-white category-yatay mb-3 ">
+              <Card.Img
+                className="vertical-img"
+                src={images[15]}
+                alt="Card image"
+              />
+              <Card.ImgOverlay className="d-flex">
+                <Card.Title className="title justify-self-center mx-auto">
+                  Müslüm Gürses Koleksiyonu
+                </Card.Title>
+              </Card.ImgOverlay>
+            </Card>
+          </Col>
+          <br />
+          <br />
+          <Col xs={12}>
+            <Card className="text-white category-yatay d-flex">
+              <Card.Img
+                className="vertical-img"
+                src={images[16]}
+                alt="Card image"
+              />
+              <Card.ImgOverlay className="d-flex">
+                <Card.Title className="title justify-self-center mx-auto">
+                  Yeşil Çam Koleksiyonu
+                </Card.Title>
+              </Card.ImgOverlay>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+}
+
+export default NewProducts;
+/*
+<h1 className="text-center py-5 font-weight-bold display-5">
         Yeni Ürünler
       </h1>
       <Container className="d-block mx-auto">
         <Row className="mx-auto text-center pb-5">
-          {images.map((item, index) => (
+          {images.slice(0, 8).map((item, index) => (
             <Col
               xs={12}
               sm={12}
@@ -37,22 +117,18 @@ function NewProducts(props) {
           ))}
         </Row>
       </Container>
-    </div>
-  );
-}
+*/
 
-export default NewProducts;
 /*
-<Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <img className="product" src={images[0]} alt="sss" />
+<Row className="mx-auto vertical-cat ">
+          <Col xs={4} sm={4} md={4} lg={4} xl={4} className="px-1">
+            <img className="category mb-3" src={images[12]} alt="muslum" />
           </Col>
-          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <img className="product" src={images[1]} alt="sss" />
+          <Col xs={4} sm={4} md={4} lg={4} xl={4} className="px-1">
+            <img className="category mb-3" src={images[9]} alt="muslum" />
           </Col>
-          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <img className="product" src={images[2]} alt="sss" />
+          <Col xs={4} sm={4} md={4} lg={4} xl={4} className="px-1">
+            <img className="category mb-3" src={images[10]} alt="muslum" />
           </Col>
-          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <img className="product" src={images[3]} alt="sss" />
-          </Col>
+        </Row>
 */

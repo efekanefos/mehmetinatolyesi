@@ -6,7 +6,7 @@ import logo from "../images/logo.jpg";
 function Header(props) {
   return (
     <div>
-      <Container className="pb-5">
+      <Container>
         <Navbar collapseOnSelect expand="lg">
           <Navbar.Brand>
             <img className="logo" src={logo} alt="logo" />
