@@ -1,13 +1,5 @@
-.carousel {
-  width: 87.5%;
-  margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  .carousel {
-    width: 84%;
-    margin: 0 auto;
-  }
+.carousel_css {
+  width: 80%;
 }
 .slick-prev,
 .slick-next {

@@ -1,13 +1,15 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "../style/newproducts.css";
+import Carousel from "./Carousel";
 import images from "../data/imgdata.js";
-
+import "../../node_modules/slick-carousel/slick/slick.css";
+import "../../node_modules/slick-carousel/slick/slick-theme.css";
 function NewProducts(props) {
   return (
     <div>
       <Container fluid className="mx-auto d-block mt-4">
-        <Row className="mx-auto vertical-cat">
+        <Row className="mx-auto vertical-cat pb-1">
           <Col xs={4} sm={4} md={4} lg={4} xl={4} className="p-0">
             <Card className="text-white category-yatay mb-3">
               <Card.Img
@@ -80,6 +82,9 @@ function NewProducts(props) {
           </Col>
         </Row>
       </Container>
+      <center>
+        <Carousel />
+      </center>
     </div>
   );
 }
