@@ -2,15 +2,18 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "../style/header.css";
 import logo from "../images/logo.jpg";
+import { Link } from "react-router-dom";
 
 function Header(props) {
   return (
     <div>
       <Container>
         <Navbar collapseOnSelect expand="lg">
-          <Navbar.Brand>
-            <img className="logo" src={logo} alt="logo" />
-          </Navbar.Brand>
+          <Link to="/">
+            <Navbar.Brand>
+              <img className="logo" src={logo} alt="logo" />
+            </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto midlinks ">

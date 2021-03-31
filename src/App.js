@@ -1,24 +1,44 @@
 import React from "react";
-import Header from "./components/Header";
-import NewProducts from "./components/NewProducts";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Footer from "./components/Footer";
-import UnderHeader from "./components/UnderHeader";
 import "./style/header.css";
-import { Container } from "react-bootstrap";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import pageinfo from "./data/pageinfo";
 
 function App() {
+  const routeMaps = pageinfo.map((item, index) => (
+    <Route
+      key={index}
+      exact={item.isExact}
+      path={item.link}
+      component={item.component}
+    />
+  ));
   return (
     <div>
-      <Header />
-      <Container fluid>
-        <UnderHeader />
-        <NewProducts />
-        <Footer />
-      </Container>
+      <BrowserRouter>
+        <Switch>
+          {routeMaps}
+          <Route>
+            <Redirect to="/404" />
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
 
 export default App;
+
+/*
+<BrowserRouter>
+
+          <Switch>
+            {routeMaps}
+            <Route>
+              <Redirect to="/404" />
+            </Route>
+          </Switch>
+        </BrowserRouter>
+
+*/

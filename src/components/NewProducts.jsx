@@ -5,22 +5,25 @@ import Carousel from "./Carousel";
 import images from "../data/imgdata.js";
 import "../../node_modules/slick-carousel/slick/slick.css";
 import "../../node_modules/slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 function NewProducts(props) {
   return (
     <div>
       <Container fluid className="mx-auto d-block mt-4">
         <Row className="mx-auto vertical-cat pb-1">
           <Col xs={4} sm={4} md={4} lg={4} xl={4} className="p-0">
-            <Card className="text-white category-yatay mb-3">
-              <Card.Img
-                className="vertical-img1"
-                src={images[17]}
-                alt="Card image"
-              />
-              <Card.ImgOverlay>
-                <Card.Title className="title">Kişiye Özel</Card.Title>
-              </Card.ImgOverlay>
-            </Card>
+            <Link to="/personalproducts">
+              <Card className="text-white category-yatay mb-3">
+                <Card.Img
+                  className="vertical-img1"
+                  src={images[17]}
+                  alt="Card image"
+                />
+                <Card.ImgOverlay>
+                  <Card.Title className="title">Kişiye Özel</Card.Title>
+                </Card.ImgOverlay>
+              </Card>
+            </Link>
           </Col>
           <Col xs={4} sm={4} md={4} lg={4} xl={4} className="p-0">
             <Card className="text-white category-yatay mb-3">
