@@ -38,16 +38,18 @@ function NewProducts(props) {
             </Card>
           </Col>
           <Col xs={4} sm={4} md={4} lg={4} xl={4} className="p-0">
-            <Card className="text-white category-yatay mb-3">
-              <Card.Img
-                className="vertical-img1"
-                src={images[10]}
-                alt="Card image"
-              />
-              <Card.ImgOverlay>
-                <Card.Title className="title">Duvar Sanatı</Card.Title>
-              </Card.ImgOverlay>
-            </Card>
+            <Link to="/wallart">
+              <Card className="text-white category-yatay mb-3">
+                <Card.Img
+                  className="vertical-img1"
+                  src={images[10]}
+                  alt="Card image"
+                />
+                <Card.ImgOverlay>
+                  <Card.Title className="title">Duvar Sanatı</Card.Title>
+                </Card.ImgOverlay>
+              </Card>
+            </Link>
           </Col>
         </Row>
       </Container>

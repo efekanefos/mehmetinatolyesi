@@ -1,0 +1,16 @@
+.wallimg {
+  width: 225px;
+  height: 300px;
+}
+.first {
+  display: inline-block;
+}
+.second {
+  display: none !important;
+}
+.first:hover {
+  display: none !important;
+}
+.first:hover + .second {
+  display: inline-block !important;
+}

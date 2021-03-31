@@ -1,0 +1,12 @@
+.first {
+  display: inline-block;
+}
+.second {
+  display: none !important;
+}
+.first:hover {
+  display: none !important;
+}
+.first:hover + .second {
+  display: inline-block !important;
+}

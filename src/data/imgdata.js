@@ -16,6 +16,12 @@ import y_muslum from "../images/yatay_muslum.jpeg";
 import crop_muslum from "../images/crop_muslum.jpeg";
 import crop_yesil from "../images/crop_yesil.jpeg";
 import cat from "../images/cat.jpeg";
+import person1 from "../images/person1.jpeg";
+import person2 from "../images/person2.jpeg";
+import person3 from "../images/person3.jpeg";
+import person4 from "../images/person4.jpeg";
+import person5 from "../images/person5.jpeg";
+import person6 from "../images/person6.jpeg";
 
 const images = [
   img1,
@@ -36,6 +42,12 @@ const images = [
   crop_muslum,
   crop_yesil,
   cat,
+  person1,
+  person2,
+  person3,
+  person4,
+  person5,
+  person6,
 ];
 
 export default images;

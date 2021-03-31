@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header";
 import { Container, Row, Col } from "react-bootstrap";
 import images from "../../data/imgdata.js";
+import "../../style/personal.css";
 
 function PersonalProducts(props) {
   return (
@@ -11,28 +12,54 @@ function PersonalProducts(props) {
       <Container>
         <Row className="text-center">
           <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <img width="200" height="200" src={images[0]} alt="0" />
+            <img
+              className="first"
+              width="225"
+              height="300"
+              src={images[18]}
+              alt="far"
+            />
+            <img
+              className="second"
+              width="225"
+              height="300"
+              src={images[20]}
+              alt="close"
+            />
             <br />
             Ürün İsmi
             <br />
             Ürün Fiyatı
           </Col>
           <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <img width="200" height="200" src={images[1]} alt="0" />
+            <img width="225" height="300" src={images[19]} alt="0" />
             <br />
             Ürün İsmi
             <br />
             Ürün Fiyatı
           </Col>
           <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <img width="200" height="200" src={images[2]} alt="0" />
+            <img
+              className="first"
+              width="225"
+              height="300"
+              src={images[21]}
+              alt="0"
+            />
+            <img
+              className="second"
+              width="225"
+              height="300"
+              src={images[22]}
+              alt="0"
+            />
             <br />
             Ürün İsmi
             <br />
             Ürün Fiyatı
           </Col>
           <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <img width="200" height="200" src={images[3]} alt="0" />
+            <img width="225" height="300" src={images[23]} alt="0" />
             <br />
             Ürün İsmi
             <br />
