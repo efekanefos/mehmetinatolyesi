@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header";
 import { Container, Row, Col } from "react-bootstrap";
 import images from "../../data/imgdata.js";
+import personOnly from "../../data/personOnly.js";
 import "../../style/personal.css";
 
 function PersonalProducts(props) {
@@ -23,7 +24,7 @@ function PersonalProducts(props) {
               className="second"
               width="225"
               height="300"
-              src={images[20]}
+              src={personOnly[10]}
               alt="close"
             />
             <br />
@@ -50,7 +51,7 @@ function PersonalProducts(props) {
               className="second"
               width="225"
               height="300"
-              src={images[22]}
+              src={personOnly[11]}
               alt="0"
             />
             <br />
@@ -60,6 +61,66 @@ function PersonalProducts(props) {
           </Col>
           <Col xs={12} sm={12} md={6} lg={4} xl={3}>
             <img width="225" height="300" src={images[23]} alt="0" />
+            <br />
+            Ürün İsmi
+            <br />
+            Ürün Fiyatı
+          </Col>
+        </Row>
+        <Row className="text-center pt-5">
+          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
+            <img width="225" height="300" src={personOnly[1]} alt="far" />
+            <br />
+            Ürün İsmi
+            <br />
+            Ürün Fiyatı
+          </Col>
+          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
+            <img width="225" height="300" src={personOnly[2]} alt="0" />
+            <br />
+            Ürün İsmi
+            <br />
+            Ürün Fiyatı
+          </Col>
+          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
+            <img width="225" height="300" src={personOnly[3]} alt="0" />
+            <br />
+            Ürün İsmi
+            <br />
+            Ürün Fiyatı
+          </Col>
+          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
+            <img width="225" height="300" src={personOnly[5]} alt="0" />
+            <br />
+            Ürün İsmi
+            <br />
+            Ürün Fiyatı
+          </Col>
+        </Row>
+        <Row className="text-center pt-5">
+          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
+            <img width="225" height="300" src={personOnly[6]} alt="far" />
+            <br />
+            Ürün İsmi
+            <br />
+            Ürün Fiyatı
+          </Col>
+          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
+            <img width="225" height="300" src={personOnly[7]} alt="0" />
+            <br />
+            Ürün İsmi
+            <br />
+            Ürün Fiyatı
+          </Col>
+          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
+            <img width="225" height="300" src={personOnly[8]} alt="0" />
+            <br />
+            Ürün İsmi
+            <br />
+            Ürün Fiyatı
+          </Col>
+          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
+            <img width="225" height="300" src={personOnly[9]} alt="0" />
             <br />
             Ürün İsmi
             <br />

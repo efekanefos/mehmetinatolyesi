@@ -13,6 +13,9 @@ import wall12 from "../images/wallart/12.jpeg";
 import wall13 from "../images/wallart/13.jpeg";
 import wall14 from "../images/wallart/14.jpeg";
 import wall15 from "../images/wallart/15.jpeg";
+import wall16 from "../images/wallart/16.jpeg";
+import wall17 from "../images/wallart/17.jpeg";
+import wall18 from "../images/wallart/18.jpeg";
 
 const wallart = [
   wall1,
@@ -30,6 +33,9 @@ const wallart = [
   wall13,
   wall14,
   wall15,
+  wall16,
+  wall17,
+  wall18,
 ];
 
 export default wallart;
