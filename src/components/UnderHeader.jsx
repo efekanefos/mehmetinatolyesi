@@ -58,13 +58,6 @@ export default class UnderHeader extends Component {
               alt="Second slide"
             />
           </div>
-          <div>
-            <img
-              className="d-block w-100 image"
-              src={images[15]}
-              alt="Third slide"
-            />
-          </div>
         </Slider>
       </div>
     );

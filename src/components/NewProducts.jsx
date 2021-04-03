@@ -56,7 +56,7 @@ function NewProducts(props) {
       <Container fluid>
         <Row>
           <Col xs={12}>
-            <Card className="text-white category-yatay mb-3 ">
+            <Card className="text-white category-yatay mb-4 ">
               <Card.Img
                 className="vertical-img"
                 src={images[15]}

@@ -17,7 +17,7 @@ function WallArt(props) {
           <Col xs={12} sm={12} md={6} lg={7} xl={7}>
             <img
               className="vertical-wall"
-              width="89%"
+              width="88%"
               height="90%"
               src={wallart[2]}
               alt="1"

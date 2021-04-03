@@ -15,3 +15,6 @@ ul {
   list-style: none !important;
   margin-left: -2.5rem !important;
 }
+.product-list li {
+  margin-bottom: 5px;
+}

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
 .logo {
   width: 7rem !important;
   border-radius: 50% !important;
@@ -5,7 +7,9 @@
 }
 
 .midlinks {
-  padding-left: 20% !important;
+  padding-left: 15% !important;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 992px) {
@@ -25,3 +29,38 @@
 }
 
 /* ********************************************************* */
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 4px 25px;
+  text-decoration: none !important;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
