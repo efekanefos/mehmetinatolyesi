@@ -2,7 +2,7 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./style/header.css";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import pageinfo from "./data/pageinfo";
 
 function App() {
@@ -19,9 +19,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           {routeMaps}
-          <Route>
-            <Redirect to="/404" />
-          </Route>
+          <Route></Route>
         </Switch>
       </BrowserRouter>
     </div>

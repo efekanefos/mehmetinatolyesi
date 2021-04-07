@@ -51,32 +51,32 @@ function Footer() {
                 <strong>Ürünlerimiz</strong>
               </li>
               <li>
-                <Link className="text-dark" to="/personalproducts">
+                <Link className="text-dark" to="/products">
                   Kişiye Özel Çizimler
                 </Link>
               </li>
               <li>
-                <Link className="text-dark" to="/personalproducts">
+                <Link className="text-dark" to="/products">
                   Yeşil Çam Koleksiyonu
                 </Link>
               </li>
               <li>
-                <Link className="text-dark" to="/personalproducts">
+                <Link className="text-dark" to="/products">
                   Müslüm Gürses Koleksiyonu
                 </Link>
               </li>
               <li>
-                <Link className="text-dark" to="/personalproducts">
+                <Link className="text-dark" to="/products">
                   Tshirt
                 </Link>
               </li>
               <li>
-                <Link className="text-dark" to="/personalproducts">
+                <Link className="text-dark" to="/products">
                   Kitap Çantası
                 </Link>
               </li>
               <li>
-                <Link className="text-dark" to="/personalproducts">
+                <Link className="text-dark" to="/products">
                   Kütük Altlık
                 </Link>
               </li>

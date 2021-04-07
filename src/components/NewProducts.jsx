@@ -12,10 +12,11 @@ function NewProducts(props) {
       <Container fluid className="mx-auto d-block mt-4">
         <Row className="mx-auto vertical-cat pb-1">
           <Col xs={4} sm={4} md={4} lg={4} xl={4} className="p-0">
-            <Link to="/personalproducts">
+            <Link to="/products">
               <Card className="text-white category-yatay mb-3">
                 <Card.Img
                   className="vertical-img1"
+                  id="cate"
                   src={images[17]}
                   alt="Card image"
                 />
@@ -29,6 +30,7 @@ function NewProducts(props) {
             <Card className="text-white category-yatay mb-3">
               <Card.Img
                 className="vertical-img1"
+                id="cate2"
                 src={images[9]}
                 alt="Card image"
               />
