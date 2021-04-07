@@ -23,7 +23,7 @@ function WallHeader(props) {
                 </Link>
               </Nav.Link>
               <span className="dropdown">
-                <Nav.Link className="dropbtn text-light link3 pr-5">
+                <Nav.Link className="dropbtn text-light pr-5">
                   <Link className="text-light" to="/allproducts">
                     Tüm Ürünlerimiz
                   </Link>

@@ -17,13 +17,13 @@ function Header(props) {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto midlinks ">
-              <Nav.Link className="link1 pr-5">
+              <Nav.Link className="pr-5">
                 <Link to="/" className="text-dark">
                   Ana Sayfa
                 </Link>
               </Nav.Link>
-              <span className="dropdown">
-                <Nav.Link className="dropbtn text-dark link3 pr-5">
+              <React.Fragment className="dropdown">
+                <Nav.Link className="dropbtn text-dark pr-5 py-1">
                   <Link className="text-dark" to="/allproducts">
                     Tüm Ürünlerimiz
                   </Link>
@@ -72,18 +72,18 @@ function Header(props) {
                     </Nav.Link>
                   </Link>
                 </div>
-              </span>
-              <Nav.Link className="link3 pr-5">
+              </React.Fragment>
+              <Nav.Link className="pr-5">
                 <Link className="text-dark" to="/wallart">
                   Duvar Sanatı
                 </Link>
               </Nav.Link>
-              <Nav.Link className="link4 pr-5">
+              <Nav.Link className="pr-5">
                 <Link className="text-dark" to="/wallart">
                   İletişim
                 </Link>
               </Nav.Link>
-              <Nav.Link className="link5 pr-5">
+              <Nav.Link className="pr-5">
                 <Link className="text-dark" to="/wallart">
                   Hakkımızda
                 </Link>
