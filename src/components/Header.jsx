@@ -22,8 +22,8 @@ function Header(props) {
                   Ana Sayfa
                 </Link>
               </Nav.Link>
-              <React.Fragment className="dropdown">
-                <Nav.Link className="dropbtn text-dark pr-5 py-1">
+              <div className="dropdown">
+                <Nav.Link className="dropbtn text-dark pr-5 py-2">
                   <Link className="text-dark" to="/allproducts">
                     Tüm Ürünlerimiz
                   </Link>
@@ -72,7 +72,7 @@ function Header(props) {
                     </Nav.Link>
                   </Link>
                 </div>
-              </React.Fragment>
+              </div>
               <Nav.Link className="pr-5">
                 <Link className="text-dark" to="/wallart">
                   Duvar Sanatı
