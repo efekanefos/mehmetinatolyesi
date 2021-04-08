@@ -8,7 +8,7 @@ function WallHeader(props) {
   return (
     <div>
       <Container>
-        <Navbar collapseOnSelect expand="lg">
+        <Navbar className="navbar-dark" collapseOnSelect expand="lg">
           <Link to="/">
             <Navbar.Brand>
               <img className="logo" src={logo} alt="logo" />

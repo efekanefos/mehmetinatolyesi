@@ -15,7 +15,7 @@ function Header(props) {
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Collapse id="responsive-navbar-nav ">
             <Nav className="mr-auto midlinks ">
               <Nav.Link className="pr-5">
                 <Link to="/" className="text-dark">
