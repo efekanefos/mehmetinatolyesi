@@ -6,9 +6,13 @@ import { Link } from "react-router-dom";
 function ProductCard(props) {
   return (
     <div>
-      <Card className="mb-5 card">
+      <Card className="mb-5 product_card">
         <a href={props.imgsrc}>
-          <Card.Img className="card-image" variant="top" src={props.imgsrc} />
+          <Card.Img
+            className="product_card_image"
+            variant="top"
+            src={props.imgsrc}
+          />
           <Link
             to={`/products/${props.id}`}
             className="btn btn-danger d-block mx-auto"

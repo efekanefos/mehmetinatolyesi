@@ -1,8 +1,8 @@
-.card {
+.product_card {
   width: 15rem !important;
   border: none;
 }
-.card-image {
+.product_card_image {
   height: 15rem;
   border-radius: 1rem;
 }
