@@ -6,9 +6,9 @@ import "../../style/productcard.css";
 function YesilCard(props) {
   return (
     <div>
-      <Card className="mb-5 card mx-auto">
+      <Card className="mb-5 product_card mx-auto">
         <Card.Img
-          className="card-image mb-2"
+          className="product_card_image mb-2"
           variant="top"
           src={props.imgsrc}
         />
