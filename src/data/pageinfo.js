@@ -3,6 +3,8 @@ import Home from "../components/Home";
 import ProductDetails from "../components/products/ProductDetails";
 import Products from "../components/products/Products";
 import AllProducts from "../components/products/AllProducts";
+import YesilProducts from "../components/yesilProducts/YesilProducts";
+import YesilDetails from "../components/yesilProducts/YesilDetails";
 
 const pageinfo = [
   {
@@ -38,6 +40,20 @@ const pageinfo = [
     isExact: false,
     component: AllProducts,
     link: "/allproducts",
+    isActive: true,
+  },
+  {
+    title: "YesilDetails",
+    isExact: false,
+    component: YesilDetails,
+    link: "/yesilcam/:yesilID",
+    isActive: true,
+  },
+  {
+    title: "YesilProducts",
+    isExact: false,
+    component: YesilProducts,
+    link: "/yesilcam",
     isActive: true,
   },
 ];

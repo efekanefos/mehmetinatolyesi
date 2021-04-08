@@ -74,18 +74,20 @@ function NewProducts(props) {
           <br />
           <br />
           <Col xs={12}>
-            <Card className="text-white category-yatay d-flex">
-              <Card.Img
-                className="vertical-img"
-                src={images[16]}
-                alt="Card image"
-              />
-              <Card.ImgOverlay className="d-flex">
-                <Card.Title className="title justify-self-center mx-auto">
-                  Yeşil Çam Koleksiyonu
-                </Card.Title>
-              </Card.ImgOverlay>
-            </Card>
+            <Link to="/yesilcam">
+              <Card className="text-white category-yatay d-flex">
+                <Card.Img
+                  className="vertical-img"
+                  src={images[16]}
+                  alt="Card image"
+                />
+                <Card.ImgOverlay className="d-flex">
+                  <Card.Title className="title justify-self-center mx-auto">
+                    Yeşil Çam Koleksiyonu
+                  </Card.Title>
+                </Card.ImgOverlay>
+              </Card>
+            </Link>
           </Col>
         </Row>
       </Container>

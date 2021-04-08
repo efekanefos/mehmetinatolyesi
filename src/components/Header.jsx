@@ -38,7 +38,7 @@ function Header(props) {
                   </Link>
                   <Link to="/products">
                     <Nav.Link>
-                      <Link className="text-dark" to="/products">
+                      <Link className="text-dark" to="/yesilcam">
                         Yeşil Çam Koleksiyonu
                       </Link>
                     </Nav.Link>
