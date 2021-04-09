@@ -6,3 +6,45 @@
   height: 15rem;
   border-radius: 1rem;
 }
+.btn-trendyol,
+.btn-shopier {
+  width: 237px;
+  height: 53px;
+}
+.btn-shopier {
+  background-color: #6700ff;
+  box-shadow: 1px 1px 5px #4c00be;
+}
+.btn-shopier:hover {
+  background-color: #5a03db;
+}
+.btn-shopier span {
+  font-weight: bold;
+  color: #14f7c4;
+  font-size: 1.07rem;
+}
+.btn-trendyol span,
+.btn-shopier span {
+  vertical-align: middle;
+}
+.btn-trendyol {
+  position: relative;
+  width: 15rem;
+  height: 3.1rem;
+  background-color: #fefefe;
+  border: 1px solid rgb(206, 206, 206);
+  box-shadow: 1px 1px 5px gray;
+}
+.btn-trendyol img {
+  position: absolute;
+  top: 15%;
+  left: 16%;
+}
+.btn-trendyol span {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  font-weight: bold;
+  color: #ff671d;
+  font-size: 1.07rem;
+}
