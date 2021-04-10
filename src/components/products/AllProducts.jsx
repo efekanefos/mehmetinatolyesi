@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import images from "./data";
 import Header from "../Header";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import "../../style/allproducts.css";
+import shopier_logo from "../../images/brands/shopier_logo.png";
+import trendyol_logo from "../../images/brands/trendyol_logo.png";
 
 function AllProducts() {
   const [tag, setTag] = useState("Hepsi");
@@ -46,7 +48,25 @@ function AllProducts() {
         <Row className="text-center">
           {filteredImages.map((image) => (
             <Col xs={12} sm={12} md={6} lg={4} xl={3} key={image.id}>
-              <img width="280" src={`${image.imageName}`} alt="1" />
+              <img className="tagImages" src={`${image.imageName}`} alt="1" />
+              <p className="pt-3 mx-auto productName">{image.productName}</p>
+              <div className="mb-3">
+                <a href="https://www.shopier.com/ShowProductNew/storefront.php?shop=Mehmetin_atolye&sid=R2Y1R2ZCU2FhdDdremNTQTFfLTFfIF8g">
+                  <Button className="btn-shopier mb-2">
+                    <img
+                      width="70"
+                      height="40"
+                      src={shopier_logo}
+                      alt="shopier"
+                    />
+                  </Button>
+                </a>
+                <a href="https://www.trendyol.com">
+                  <Button className="btn-trendyol btn-light">
+                    <img width="90" src={trendyol_logo} alt="trendyol" />
+                  </Button>
+                </a>
+              </div>
             </Col>
           ))}
         </Row>
@@ -57,12 +77,12 @@ function AllProducts() {
 
 const TagButton = ({ name, handleSetTag, tagActive }) => {
   return (
-    <button
+    <Button
       className={`tag ${tagActive ? "active" : null}`}
       onClick={() => handleSetTag(name)}
     >
       {name.toUpperCase()}
-    </button>
+    </Button>
   );
 };
 

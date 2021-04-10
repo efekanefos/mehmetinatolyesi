@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
 .tag {
   outline: none !important;
   border: 1px solid black !important;
@@ -5,6 +7,22 @@
   margin: 2px;
   background-color: transparent !important;
 }
-.active {
-  background-color: red;
+
+.tagImages {
+  width: 15rem;
+  height: 16rem;
+}
+.productName {
+  font-family: "Montserrat", sans-serif;
+  width: 15rem !important;
+  word-break: break-all;
+}
+.tag {
+  font-family: "Montserrat", sans-serif;
+  color: white !important;
+  border-radius: 5rem;
+  background-color: #4a5258 !important;
+}
+.tag:focus {
+  background-color: #f53131 !important;
 }

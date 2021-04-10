@@ -2,14 +2,15 @@
   width: 15rem !important;
   border: none;
 }
+
 .product_card_image {
-  height: 15rem;
+  height: 16.5rem;
   border-radius: 1rem;
 }
 .btn-trendyol,
 .btn-shopier {
-  width: 237px;
-  height: 53px;
+  width: 15rem;
+  height: 3.1rem;
 }
 .btn-shopier {
   background-color: #6700ff;
@@ -29,17 +30,11 @@
 }
 .btn-trendyol {
   position: relative;
-  width: 15rem;
-  height: 3.1rem;
   background-color: #fefefe;
   border: 1px solid rgb(206, 206, 206);
   box-shadow: 1px 1px 5px gray;
 }
-.btn-trendyol img {
-  position: absolute;
-  top: 15%;
-  left: 16%;
-}
+
 .btn-trendyol span {
   position: absolute;
   top: 28%;

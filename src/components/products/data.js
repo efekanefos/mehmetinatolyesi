@@ -15,7 +15,13 @@ import product13 from "../../images/13.jpg";
 import product14 from "../../images/14.jpg";
 import product15 from "../../images/15.jpg";
 import product16 from "../../images/16.jpg";
-/*Personal*/
+/*Muslum*/
+import muslum1 from "../../images/shopier_muslum/1.png";
+import muslum2 from "../../images/shopier_muslum/2.png";
+import muslum3 from "../../images/shopier_muslum/3.png";
+import muslum4 from "../../images/shopier_muslum/4.png";
+import muslum5 from "../../images/shopier_muslum/5.png";
+import muslum6 from "../../images/shopier_muslum/6.png";
 
 const images = [
   { id: "1", imageName: product1, tag: "Yeşil Çam Ürünleri" },
@@ -34,6 +40,48 @@ const images = [
   { id: "14", imageName: product14, tag: "Kişiye Özel Tasarımlar" },
   { id: "15", imageName: product15, tag: "Kişiye Özel Tasarımlar" },
   { id: "16", imageName: product16, tag: "Kişiye Özel Tasarımlar" },
+  {
+    id: "17",
+    imageName: muslum1,
+    tag: "Müslüm Gürses Ürünleri",
+    productName: "Müslüm Gürses Box Set",
+    productCost: "115 TL",
+  },
+  {
+    id: "18",
+    imageName: muslum2,
+    tag: "Müslüm Gürses Ürünleri",
+    productName: "Müslüm Gürses Kupa Bardak",
+    productCost: "35 TL",
+  },
+  {
+    id: "19",
+    imageName: muslum3,
+    tag: "Müslüm Gürses Ürünleri",
+    productName: "Müslüm Gürses Bez Çanta",
+    productCost: "25 TL",
+  },
+  {
+    id: "20",
+    imageName: muslum4,
+    tag: "Müslüm Gürses Ürünleri",
+    productName: "Müslüm Gürses Kupa Bardak",
+    productCost: "35 TL",
+  },
+  {
+    id: "21",
+    imageName: muslum5,
+    tag: "Müslüm Gürses Ürünleri",
+    productName: "Müslüm Gürses Kupa Bardak",
+    productCost: "35 TL",
+  },
+  {
+    id: "22",
+    imageName: muslum6,
+    tag: "Müslüm Gürses Ürünleri",
+    productName: "Müslüm Gürses Kupa Bardak",
+    productCost: "35 TL",
+  },
 ];
 
 export default images;

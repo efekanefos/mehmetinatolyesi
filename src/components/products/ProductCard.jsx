@@ -1,8 +1,9 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import "../../style/productcard.css";
+/*
 import { Link } from "react-router-dom";
-
+*/
 function ProductCard(props) {
   return (
     <div>
@@ -13,13 +14,6 @@ function ProductCard(props) {
             variant="top"
             src={props.imgsrc}
           />
-          <Link
-            to={`/products/${props.id}`}
-            className="btn btn-danger d-block mx-auto"
-            id="readmore"
-          >
-            Read More
-          </Link>
         </a>
       </Card>
     </div>
@@ -40,6 +34,15 @@ export default ProductCard;
     <Button variant="primary">Go somewhere</Button>
   </Card.Body>
 </Card>
+*/
+/*
+<Link
+            to={`/products/${props.id}`}
+            className="btn btn-danger d-block mx-auto"
+            id="readmore"
+          >
+            Read More
+          </Link>
 */
 
 /*
